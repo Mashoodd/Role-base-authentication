@@ -1,0 +1,14 @@
+{
+  "name": "role-based-auth",
+  "version": "1.0.0",
+  "description": "kuch tu seekheingy ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rpg"
+  ],
+  "author": "mashood kamran",
+  "license": "ISC"
+}

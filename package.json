@@ -1,14 +1,30 @@
 {
-  "name": "role-based-auth",
+  "name": "server",
   "version": "1.0.0",
   "description": "kuch tu seekheingy ",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "keywords": [
     "rpg"
   ],
   "author": "mashood kamran",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mashoodd/Role-base-authentication.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mashoodd/Role-base-authentication/issues"
+  },
+  "homepage": "https://github.com/Mashoodd/Role-base-authentication#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
 }
